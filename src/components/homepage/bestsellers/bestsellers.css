@@ -1,0 +1,83 @@
+.sellerContainer{
+    margin: 0 100px;
+}
+.promiseHeading{
+    padding-top: 20px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #003459;
+}
+.sellerHead{
+    font-family: "Source Sans Pro";
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 30px;
+text-transform: uppercase;
+color: #C6C6C6;
+
+}
+.active{
+    text-decoration: underline;
+    color: #003459;
+}
+
+.imgBox{
+    margin: 3% 3%;
+    width: 220px;
+    display: inline-block;
+}
+.imgBoxImg{
+    height: 250px;
+    margin-bottom: 10px;
+}
+.imgBoxTitle{
+        font-family: "Source Sans Pro";
+        color: black;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 12px;      
+}
+.seemore{
+                font-family: "Source Sans Pro";
+                font-style: normal;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 57px;
+                cursor: pointer;
+                text-align: center;
+                letter-spacing: 0.2px;
+                text-decoration: underline;
+                color: #40CEFC
+}
+
+@media (max-width: 480px){
+    .sellerContainer{
+        margin: 0;
+    }
+    .promiseHeading{
+        font-size: 20px;
+    }
+    .sellerHead{
+        width: 60px;
+        font-size: 13px;  
+        line-height: 13px;
+        margin: 0.1rem;
+    }
+    
+    .imgBoxImg{
+        width: 90%;
+        height: 100%;
+        margin-bottom: 0;
+    }
+    .imgBox{
+        margin: 5%;
+        width: 40%;
+    }
+    .seemore{
+        font-size: 18px;
+    }
+}
